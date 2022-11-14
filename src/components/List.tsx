@@ -15,7 +15,7 @@ const List = (props: ListTodoInterface) => {
     return (
         <div className="todo-list">
             <h3>Todo</h3>
-            <ul id="list__tasks">
+            <ul id="list__tasks" style={{ height: '225px', overflowY: 'auto' }}>
                 {props.todos.map((todo) => (
                     <li key={todo.id}>
                         <Item 

@@ -7,7 +7,7 @@ export interface TodoInterface {
     isCompleted: boolean;
 }
 
-// From Todo interface.
+// Form Todo interface.
 export interface FormTodoInterface {
     todos: TodoInterface[];
     handleTodoCreate: (todo: TodoInterface) => void;
